@@ -1,0 +1,142 @@
+Program Pertama
+fun main() {
+    // Ini adalah program Hello World dalam Kotlin
+    println("Hello, World!") // Menampilkan pesan Hello, World! ke layar
+}
+
+Output:
+Hello, World!
+
+----------------------------------------------------------------------------------------------
+
+fun main() {
+    // Ini adalah program sederhana untuk mencetak pesan Hello, Android! ke layar
+    println("Hello, Android!") // Menggunakan perintah println untuk mencetak pesan ke layar
+}
+
+Output:
+Hello, Android!
+----------------------------------------------------------------------------------------------
+
+
+fun main() {
+    // Mencetak angka 1 ke layar
+    println("1")
+    
+    // Mencetak angka 2 ke layar
+    println("2")
+    
+    // Mencetak angka 3 ke layar
+    println("3")
+}
+
+Output:
+1
+2
+3
+-
+-----------------------------------------------------------------------------------------
+
+fun main() {
+    // Menampilkan pesan "I'm" ke layar
+    println("I'm")
+    
+    // Menampilkan pesan "learning" ke layar
+    println("learning")
+    
+    // Menampilkan pesan "Kotlin!" ke layar
+    println("Kotlin!")
+}
+
+Output:
+I'm
+learning
+Kotlin!
+-----------------------------------------------------------------------------------------
+fun main() {
+    // Mendefinisikan array daysOfWeek yang berisi nama-nama hari dalam seminggu
+    val daysOfWeek = arrayOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+    // Menggunakan loop for untuk mengakses dan mencetak setiap hari dalam urutan
+    for (day in daysOfWeek) {
+        // Mencetak nama hari ke layar
+        println(day)
+    }
+}
+
+Output:
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+
+-----------------------------------------------------------------------------------------
+
+fun main() {
+    println("Tomorrow is rainy")
+}
+
+Output:
+Tomorrow is rainy
+-----------------------------------------------------------------------------------------
+fun main() {
+    println("There is a chance of snow")
+}
+ Output:
+There is a chance of snow
+--------------------------------------------------------------------------------------
+fun main() {
+    println("Cloudy")
+    println("Partly Cloudy")
+    println("Windy")
+}
+
+Output:
+Cloudy
+Partly Cloudy
+Windy
+--------------------------------------------------------------------------------------
+fun main() {
+    // Menampilkan pesan cuaca ke layar
+    println("How's the weather today?")
+}
+
+
+Output:
+How's the weather today
+--------------------------------------------------------------------------------------
+Membuat Variabel 
+
+fun main() {
+    println("Use the val keyword when the value doesn't change.")
+    println("Use the var keyword when the value can change.")
+    println("When you define a function, you define the parameters that can be passed to it.")
+    println("When you call a function, you pass arguments for the parameters.")
+} 
+
+
+fun main() { 
+    println("New chat message from a friend")
+}
+--------------------------------------------------------------------------------------
+fun main() { 
+    println("New chat message from a friend")
+}
+
+--------------------------------------------------------------------------------------
+fun main() {
+    // Mendefinisikan variabel discountPercentage dengan nilai 20
+    val discountPercentage = 20
+
+    // Mendefinisikan variabel item dengan nilai "Google Chromecast"
+    val item = "Google Chromecast"
+
+    // Menggabungkan nilai variabel discountPercentage dan item ke dalam variabel offer
+    val offer = "Sale  - Up to $discountPercentage% discount off $item! Hurry Up!"
+
+    // Mencetak pesan tawaran ke layar
+    println(offer)
+}
+--------------------------------------------------------------------------------------
+
